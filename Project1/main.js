@@ -7,6 +7,6 @@ console.dir(liczba1)
 przeliczBtn.addEventListener('click', () => {
     console.log(+liczba1.value)
     // parseInnt(liczba1.value)
-    wynikiPojemnik.innerHTML = `Wynik: ${(liczba1.value+liczba2.value)}`
+    wynikiPojemnik.innerHTML = `Wynik: ${parseInt(liczba1.value)+parseInt(liczba2.value)}`
 })
 // Math.min(), .max()
