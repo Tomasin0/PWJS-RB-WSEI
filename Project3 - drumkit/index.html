@@ -2,15 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>DrumKit</title>
 </head>
+<header>
+    <h1> DrumKit </h1>
+</header>
 <body>
-    <div>
-        <audio src="./sounds/clap.wav" controls id="clap"></audio>
+    <div class="soundSources">
         <audio src="./sounds/boom.wav" controls id="boom"></audio>
+        <audio src="./sounds/clap.wav" controls id="clap"></audio>
         <audio src="./sounds/hihat.wav" controls id="hihat"></audio>
         <audio src="./sounds/kick.wav" controls id="kick"></audio>
         <audio src="./sounds/openhat.wav" controls id="openhat"></audio>
@@ -19,8 +22,18 @@
         <audio src="./sounds/tink.wav" controls id="tink"></audio>
         <audio src="./sounds/tom.wav" controls id="tom"></audio>
     </div>
-
     <div class="content">
+        <div class="soundSchema breakLine">
+            <p class="soundSchemaElement">Boom: <b>q</b></p>
+            <p class="soundSchemaElement">Clap: <b>w</b></p>
+            <p class="soundSchemaElement">Hihat: <b>e</b></p>
+            <p class="soundSchemaElement">Kick: <b>r</b></p>
+            <p class="soundSchemaElement">Openhat: <b>t</b></p>
+            <p class="soundSchemaElement">Ride: <b>y</b></p>
+            <p class="soundSchemaElement">Snare: <b>u</b></p>
+            <p class="soundSchemaElement">Tink: <b>i</b></p>
+            <p class="soundSchemaElement">Tom: <b>o</b></p>
+        </div>
         <div class="breakLine">
             <button class="buttonIsNotRecording" id="startStopRecordingButton"></button>
             <button class="playSelectedButton">Play Selected</button>

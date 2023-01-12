@@ -24,7 +24,6 @@ body {
     justify-content: space-between;
 }
 
-/* Note container styles */
 #note_container {
     grid-area: note_container;
     display: flex;
@@ -35,7 +34,6 @@ body {
     flex: 1 1 auto;
 }
 
-/* Note styles */
 .note {
     display: flex;
     flex-wrap: wrap;
@@ -83,7 +81,6 @@ body {
     margin: 5px 0;
 }
 
-/* Note creator input styles  */
 #note_creator {
     grid-area: note_creator;
     display: flex;

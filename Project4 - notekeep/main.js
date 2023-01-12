@@ -57,7 +57,6 @@ function displayNotes() {
 function createNote() {
     let creator = document.getElementById('note_creator');
 
-    // Jak mi się będzie chciało to poddać inputy sanityzacji, bo XSS
     let note = {
         'title': creator.querySelector('input[name=note_title]').value,
         'content': creator.querySelector('textarea[name=note_content]').value,
