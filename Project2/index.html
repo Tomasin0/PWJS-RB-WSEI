@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Slider</title>   
+    </head>
+    <body>
+        <div id="slider">
+
+            <div class="slides fade">
+                <img src="./Obrazy/jpg1.JPG" alt="jpg1">
+            </div>
+
+            <div class="slides fade">
+                <img src="./Obrazy/jpg2.JPG" alt="jpg2">
+            </div>
+
+            <div class="slides fade">
+                <img src="./Obrazy/jpg3.JPG" alt="jpg3">
+            </div>
+
+            <div class="slides fade">
+                <img src="./Obrazy/jpg4.JPG" alt="jpg4">
+            </div>
+
+            <div class="slides fade">
+                <img src="./Obrazy/jpg5.JPEG" alt="jpg5">
+            </div>
+
+            <div id="first">
+                <a class="Previous" onclick="plusSlides(-1)">&#10094;</a>
+            </div>
+
+            <div id="second">
+                <a class="Next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot active" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+        <main>
+        </main>
+            <script src="main.js"></script>
+    </body>
+</html>
