@@ -1,4 +1,4 @@
-import {KeyToSound} from './KeyToSound.js';
+import {KeyToSound} from './keytosound.js';
 
 document.addEventListener('keypress', onKeyPress);
 const startStopButton = document.querySelector('#startStopRecordingButton')

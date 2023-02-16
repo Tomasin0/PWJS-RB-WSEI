@@ -7,20 +7,17 @@
     <link rel="stylesheet" href="style.css">
     <title>DrumKit</title>
 </head>
-<header>
-    <h1> DrumKit </h1>
-</header>
 <body>
     <div class="soundSources">
-        <audio src="./sounds/boom.wav" controls id="boom"></audio>
-        <audio src="./sounds/clap.wav" controls id="clap"></audio>
-        <audio src="./sounds/hihat.wav" controls id="hihat"></audio>
-        <audio src="./sounds/kick.wav" controls id="kick"></audio>
-        <audio src="./sounds/openhat.wav" controls id="openhat"></audio>
-        <audio src="./sounds/ride.wav" controls id="ride"></audio>
-        <audio src="./sounds/snare.wav" controls id="snare"></audio>
-        <audio src="./sounds/tink.wav" controls id="tink"></audio>
-        <audio src="./sounds/tom.wav" controls id="tom"></audio>
+        <audio src="./Sounds/boom.wav" controls id="boom"></audio>
+        <audio src="./Sounds/clap.wav" controls id="clap"></audio>
+        <audio src="./Sounds/hihat.wav" controls id="hihat"></audio>
+        <audio src="./Sounds/kick.wav" controls id="kick"></audio>
+        <audio src="./Sounds/openhat.wav" controls id="openhat"></audio>
+        <audio src="./Sounds/ride.wav" controls id="ride"></audio>
+        <audio src="./Sounds/snare.wav" controls id="snare"></audio>
+        <audio src="./Sounds/tink.wav" controls id="tink"></audio>
+        <audio src="./Sounds/tom.wav" controls id="tom"></audio>
     </div>
     <div class="content">
         <div class="soundSchema breakLine">
@@ -41,8 +38,8 @@
         <div class="recordsContainer">
             <div class="recordContainer" id="egzampleHiddenRecord">
                 <div class="recordContainerButtonsContainer">
-                    <button class="deleteRecordButton">X</button>
-                    <button class="playRecordButton">Play</button>
+                    <button class="deleteRecordButton"><b>X</b></button>
+                    <button class="playRecordButton"><b>Play</b></button>
                     <input class="selectedCheckbox" type="checkbox">
                 </div>
                 <div class="recordContainerMelodyContainer">
@@ -51,6 +48,6 @@
             </div>
         </div>
     </div>
-    <script src="drumkit.js" type="module"></script>
+    <script src="main.js" type="module"></script>
 </body>
 </html>
